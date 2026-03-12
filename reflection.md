@@ -5,8 +5,14 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 1. What was broken when you started?
 
 - What did the game look like the first time you ran it?
+  Ans: When I first ran it, the game website looked so AI generated. From the emojis used to the background color, it looked like the website was created with a single prompt. When I ran the game the hints were misleading.
 - List at least two concrete bugs you noticed at the start  
   (for example: "the secret number kept changing" or "the hints were backwards").
+  1. The new game button does not seem to be working, it should reset the attempts and make the user play again.
+  2. The hint given is opposite to what actually is true. 
+  3. The number range doesn't change with change in difficulty. 
+  4. Also the attempts don't match with the ones given in the setting panel.
+  5. Hard level should have the range from 1 to 100 and normal should have the range 1 to 50 but its the opposite in our scenario.
 
 ---
 
