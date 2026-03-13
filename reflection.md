@@ -12,7 +12,6 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
   2. The hint given is opposite to what actually is true. 
   3. The number range doesn't change with change in difficulty. 
   4. Also the attempts don't match with the ones given in the setting panel.
-  5. Hard level should have the range from 1 to 100 and normal should have the range 1 to 50 but its the opposite in our scenario.
 
 ---
 

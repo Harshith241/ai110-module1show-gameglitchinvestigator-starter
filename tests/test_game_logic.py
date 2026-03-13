@@ -14,3 +14,14 @@ def test_guess_too_low():
     # If secret is 50 and guess is 40, hint should be "Too Low"
     result = check_guess(40, 50)
     assert result == "Too Low"
+
+
+def test_hint_direction_regression_high_low_bug():
+    # Regression test: high guesses must say LOWER, low guesses must say HIGHER.
+    high_outcome, high_message = check_guess(60, 50)
+    low_outcome, low_message = check_guess(40, 50)
+
+    assert high_outcome == "Too High"
+    assert "LOWER" in high_message
+    assert low_outcome == "Too Low"
+    assert "HIGHER" in low_message
