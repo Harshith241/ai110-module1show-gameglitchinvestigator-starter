@@ -26,12 +26,21 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
+      The game's purpose is to make the user guess a number between a range within a given number of attempts
 - [ ] Detail which bugs you found.
+      1. The new game button does not seem to be working, it should reset the attempts and make the user play again.
+      2. The hint given is opposite to what actually is true. 
+      3. The number range doesn't change with change in difficulty. 
+      4. Also the attempts don't match with the ones given in the setting panel.
 - [ ] Explain what fixes you applied.
+      For the button I just made the attempts reset after every click.
+      for the hint I just change lower to higher and higher to lower.
+      For the number range part I made the low and high of the range dynamic based on the difficulty given rather than just 1-100.
+      Lastly I made the attempts match the one on the setting panel 
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+- [ ] [![alt text](image.png)]
 
 ## 🚀 Stretch Features
 
