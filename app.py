@@ -5,7 +5,7 @@ def get_range_for_difficulty(difficulty: str):
     if difficulty == "Easy":
         return 1, 20
     if difficulty == "Normal":
-        return 1, 50 
+        return 1, 50 #fixed the range mismatch in this part
     if difficulty == "Hard":
         return 1, 100
     return 1, 100
@@ -35,7 +35,7 @@ def check_guess(guess, secret):
 
     try:
         if guess > secret:
-            return "Too High", "📉 Go LOWER!"
+            return "Too High", "📉 Go LOWER!" #solved the lower/higher mismatch in the hint here
         else:
             return "Too Low", "📈 Go HIGHER!"
     except TypeError:
@@ -187,8 +187,8 @@ if submit:
                 )
 
 attempts_placeholder.info(
-    f"Guess a number between {low} and {high}. "
-    f"Attempts left: {attempt_limit - st.session_state.attempts}"
+    f"Guess a number between {low} and {high}. " # made the range dynamically appear here
+    f"Attempts left: {attempt_limit - st.session_state.attempts}" 
 )
 
 st.divider()

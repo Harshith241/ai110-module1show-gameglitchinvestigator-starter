@@ -15,7 +15,7 @@ def get_range_for_difficulty(difficulty: str):
     if difficulty == "Easy":
         return 1, 20
     if difficulty == "Normal":
-        return 1, 50
+        return 1, 50    #fixed the range mismatch in this part
     if difficulty == "Hard":
         return 1, 100
     return 1, 100

@@ -18,17 +18,23 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 2. How did you use AI as a teammate?
 
 - Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
+  I used copilot for this project
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
+  The AI suggested me to change the hint message to lower if guessed word is lower than the target and vice versa for high.
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
+  Easy had range from 1-20 and normal had from 1-100 and hard as 1-50, the AI here when I asked to change it, it changed hard from 1-200 but in the settings tab it was given normal should be 1-50 and hard should be 1-100 so I had to undo changes and ask the AI again this time specifying details. 
 
 ---
 
 ## 3. Debugging and testing your fixes
 
 - How did you decide whether a bug was really fixed?
-- Describe at least one test you ran (manual or using pytest)  
+  I manually checked the difference between the changed code each time and then selected keep
+- Describe at least one test you ran (manual or using pytest) 
   and what it showed you about your code.
+  I tested most of my changes directly on the website, one of it is seeing if the attempts counter changed based on the difficulty chosen.
 - Did AI help you design or understand any tests? How?
+  Hmm no I personally wanted to test the code on my own.
 
 ---
 
